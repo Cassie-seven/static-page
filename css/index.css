@@ -1,0 +1,524 @@
+/*通用样式*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+    font-family: Arial;
+	background: url(../images/background.png) repeat-x;
+}
+.wp{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.clear{clear: both;}
+/*头部样式*/
+.head .t_top{
+	width: 100%;
+	height: 10px;
+	min-width: 960px;
+	background-color: #25252c;
+}
+.head .t_bottom{
+	width: 960px;
+	height: 28px;
+	overflow: hidden;
+	position: absolute;
+	background-color: #25252c;
+}
+.head .t_bottom span{
+	color: #fff;
+	font-size: 12px;
+	line-height: 28px;
+	margin-left: 10px;
+}
+.head .t_bottom .right{
+	float: right;
+	display: inline;
+	margin-right: 10px;
+	*margin-top: -28px;
+}
+.head .t_bottom .right span{
+    top: -7px;
+    position: relative;
+}
+.head .t_bottom img{
+	cursor: pointer;
+}
+/*导航样式*/
+.head .nav{
+	height: 126px;
+	overflow: hidden;
+}
+.head .nav img{
+	margin-top: 48px;
+	margin-left: 10px;
+}
+.head .nav .mainnav{
+	float: right;
+	margin-top: 65px;
+	*margin-top: -46px;
+}
+.head .nav ul{	
+	list-style: none;
+}
+.head .nav ul li{
+	float: left;
+	cursor: default;
+	margin-right: 33px;
+	padding-bottom: 26px;
+}
+.head .nav .mr_0{
+	margin-right: 0px;
+}
+.head .nav ul li h3{
+	font-size: 17px;
+	font-weight: 700;
+}
+.head .nav ul li span{
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+}
+/*二级导航*/
+.head .nav ul li ul{
+	z-index: 1000;
+	display: none;
+	margin-top: 26px;
+	position: absolute;
+}
+.head .nav ul li ul li{
+	float: none;
+	opacity: 0.8;
+	width: 183px;
+	height: 34px;
+	overflow: hidden;
+	line-height: 34px;
+	margin-right: 0px;
+	padding-left: 12px;
+	padding-bottom: 0px;
+	background-color: #fff;
+	border: 1px solid #cac8c8;
+	filter: alpha(opacity=80);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+.head .nav ul li ul span{
+	font-size: 14px;
+	font-weight: 400;
+}
+.head .nav ul li ul strong{
+	font-size: 16px;
+    font-weight: bold;
+}
+.head .nav ul li ul .br_0{
+	border-top: none;
+	border-bottom: none;
+}
+.head .nav ul li:hover ul{
+	display: block;
+}
+.head .nav ul li ul li:hover{
+	font-weight: bolder;
+}
+
+
+
+
+
+
+/*轮播滚动部分样式*/
+/*.lunbo{
+	margin-bottom: 15px;
+}*/
+#container{
+	*z-index: 1;
+	width: 1310px;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+#list{
+	z-index: 1;
+	width: 5240px;
+	height: 400px;
+	position: absolute;
+}
+#list img{
+	float: left;
+	max-width: 100%;
+}
+.lunbo .text{
+	z-index: 2;
+	color: #555;
+	opacity: 0.75;
+	width: 640px;
+	height: 162px;
+	overflow: hidden;
+	margin-top: 220px;
+	position: absolute;
+	background-color: #fff; 
+	filter: alpha(opacity=75);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+}
+.lunbo .text h2{
+	font-size: 24px;
+	margin-top: 15px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+.lunbo .text p{
+    font-size: 12px;
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 4px;
+    line-height: 18px;
+}
+.lunbo .arrow{
+	z-index: 2;
+	margin-top: 330px;
+	margin-left: 841px;
+	position: absolute;
+}
+.lunbo .arrow img{
+	cursor: pointer;
+}
+#prev{
+    margin-right: 10px;
+}
+
+/*页面主体样式*/
+/*主体上部样式*/
+.content{
+	color: #4b4a4a;
+	margin-top: 15px;
+	overflow: hidden;
+	/*width: 1310px;
+	margin: 0 auto;
+	background: url(../images/background.png) repeat-x;*/
+}
+.content .c_top ul{
+	list-style: none;
+}
+.content .c_top ul li{
+	float: left;
+	width: 230px;
+	height: 230px;
+	margin-right: 12px;
+	background: url(../images/content1_background.png) no-repeat;
+}
+.content .c_top ul .mr_0{
+	margin-right: 0px;
+}
+.content .c_top ul li img{
+	padding-top: 21px;
+	padding-left: 84px;
+}
+.content .c_top ul li .pd{
+	padding-left: 93px;
+}
+.content .c_top ul li h3{
+	cursor: default;
+	font-size: 18px;
+	margin-top: 18px;
+	text-align: center;
+}
+.content .c_top ul li p{
+	width: 175px;
+	cursor: default;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-left: 27px;
+	line-height: 18px;
+	text-align: center;
+}
+.content .c_top ul li .h3_2{
+	margin-top: 13px;
+}
+.content .c_top ul li .h3_4{
+	margin-top: 16px;
+}
+.content .c_top ul li:hover{
+	background: url(../images/content1_choice.png) no-repeat;
+}
+.content .c_top ul li:hover h3{
+	color: #fff;
+}
+.content .c_top ul li:hover p{
+	color: #fff;
+}
+/*主体中部样式*/
+.content .c_middle{
+	font-size: 18px;
+	font-style: italic; /*oblique*/
+	margin-top: 50px;
+	margin-left: 10px; 
+	margin-bottom: 50px;
+}
+/*主体下部样式*/
+.content .c_bottom{
+	clear: both;
+	margin-bottom: 20px;
+}
+.content .c_bottom ul{
+	list-style: none;
+}
+.content .c_bottom ul li{
+	float: left;
+	width: 230px;
+	margin-right: 12px;
+}
+.content .c_bottom ul .mr_0{
+	margin-right: 0px;
+}
+.content .c_bottom ul li .one{
+	/*z-index: 1;*/
+	padding: 7px;
+	position: absolute;
+	border: 1px solid #CCC;
+}
+.content .c_bottom ul li .two{
+	z-index: 2;
+	display: none;
+	margin-top: 8px;
+	margin-left: 8px;
+	position: absolute;
+}
+.content .c_bottom ul li .three{
+	padding: 0px;
+	display: block;
+	margin-top: 156px;
+}
+.content .c_bottom ul li .four{
+    z-index: 2;
+    opacity: 0;
+    display: none;
+    cursor: pointer;
+    margin-top: -17px;
+	margin-left: 91px;
+	position: absolute;
+	filter: alpha(opacity=0);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.content .c_bottom ul li h3{
+	font-size: 18px;
+	margin-top: 13px;
+	margin-left: 8px;
+	margin-bottom: 4px;
+}
+.content .c_bottom ul li p{
+	font-size: 12px;
+	margin-left: 8px;
+	line-height: 18px;
+	margin-bottom: 28px;
+}
+.c_line{
+	margin-top: 17px;
+	*margin-top: -31px;
+	margin-bottom: 24px;
+}
+.c_line .line{
+	background: url(../images/c_line.png) repeat-x;
+}
+.c_line .line img{
+	opacity: 0;
+}
+#uparrow,#downarrow{
+	cursor: pointer;
+    margin-top: -37px;/*负的值最好不要超过30，待完善*/
+	margin-left: 461px;
+}
+#uparrow{
+	display: block;
+}
+#downarrow{
+	display: none;
+}
+/*底部样式*/
+/*底部左部样式*/
+.bottom{
+	width: 1310px;
+	height: 358px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #1c1c20;
+}
+.bottom ul{
+	list-style: none;
+}
+.bottom ul li{
+	float: left;
+}
+.bottom h2{
+	color: #cbcbcb;
+	font-size: 20px; 
+}
+.bottom .b_left{
+	width: 325px;
+	margin-top: 30px;
+}
+.bottom .b_left h2{
+	margin-bottom: 10px;
+}
+.bottom .b_left p{
+	color: #858585;
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 19px;
+}
+.bottom .b_left ul{
+	list-style: none;
+}
+.bottom .b_left ul li{
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 4px;
+}
+.bottom .b_left .mr_0{
+	margin-right: 0px;
+}
+.bottom .b_left ul li img{
+	opacity: 0.3;
+	border: 1px solid #434241;
+	filter: alpha(opacity=30);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+}
+.bottom .b_left .button{
+	width: 76px;
+	height: 22px;
+	cursor: pointer;
+	margin-top: 15px;
+	margin-left: 125px;
+	text-align: center;
+	background: url(../images/b_view.png) no-repeat;
+}
+.bottom .b_left .button span{
+	color: #b7b6b6;
+	font-size: 12px;
+	line-height: 22px;
+}
+.bottom .b_left .button span:hover{
+	font-weight: bold;
+}
+/*底部中部样式*/
+.bottom .b_middle{
+	width: 224px;
+	margin-top: 30px;
+	margin-left: 76px;
+}
+.bottom .b_middle .text{
+	margin-bottom: 6px;
+}
+.bottom .b_middle .email ul{
+	list-style: none;
+}
+.bottom .b_middle .email ul li{
+	width: 222px;
+	height: 36px;
+	margin-top: 4px;
+	background: url(../images/bottom_email.png) no-repeat;
+}
+.bottom .b_middle .email ul .textarea{
+	width: 222px;
+	height: 115px;
+	background: url(../images/bottom_message.png) no-repeat;
+}
+.bottom .b_middle .email input[type="text"],textarea{
+	width: 206px;
+	outline: 0px;
+	border: none;
+	color: #a9a8a8;
+	font-size: 12px;
+	background: none;
+    font-weight: bold;
+	padding-left: 8px;
+	font-family: Arial;
+}
+.bottom .b_middle .email input[type="text"]{
+	height: 36px;
+}
+.bottom .b_middle .email textarea{
+	height: 95px;
+	resize: none;/*去除可拖动放大边框的样式*/
+	margin-top: 10px;
+    overflow: hidden;/*去除滚动条*/
+    word-wrap: none;
+	white-space: none;
+}
+.bottom .b_middle .button{
+	width: 128px;
+	height: 29px;
+	color: #a9a8a8;
+	cursor: default;
+	margin-top: 10px;
+	margin-left: 47px;
+    font-weight: bold;
+	text-align: center;
+	background: url(../images/bottom_send.png) no-repeat;
+}
+.bottom .b_middle .button span{
+	font-size: 14px;
+	line-height: 29px;
+}
+/*底部右部样式*/
+.bottom .b_right{
+	margin-top: 30px;
+	margin-left: 69px;
+}
+.bottom .b_right .text{
+	margin-bottom: 10px;
+}
+.bottom .b_right .card ul li{
+	float: none;
+}
+.bottom .b_right .card ul .text{
+	float: right;
+    width: 160px;
+    /*margin-left: 7px;*/
+    margin-left: -160px;/*以下两句为了解决ie兼容性问题，只能用负数，待完善*/
+    margin-top: -73px;
+}
+.bottom .b_right .card ul li img{
+    border: 4px solid #fff;
+}
+.bottom .b_right .card ul li h4{
+	color: #41a8d3;
+	font-size: 14px;
+}
+.bottom .b_right .card ul li p{
+	color: #858585;
+	margin-top: 3px;
+	margin-left: 3px;
+	font-size: 12px;
+	line-height: 17px;
+}
+.bottom .b_right .card .line{
+	margin-top: 8px;
+}
+.bottom .b_right .card .line img{
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+/*尾部样式*/
+.foot{
+	width: 100%;
+	height: 28px;
+	color: #d0d0d0;
+	font-size: 12px;
+	min-width: 960px;
+	overflow: hidden;
+	background-color: #121212;
+}
+.foot span{
+	line-height: 28px;
+}
+.foot .left{
+	float: left;
+}
+.foot .right{
+	float: right;
+}
+.foot .right span{
+	margin-right: 20px;
+}
