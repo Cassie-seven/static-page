@@ -1,1 +1,1 @@
-# static-page
+# 用原生写的静态页面，查看地址：http://39.108.72.33/lzs/practice/
